@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <title>CSS3 Sample</title>
+</head>
+<body>
+    <style>
+        #box1 {
+            width: 100px;
+            height: 100px;
+            background: #f00;
+            animation: myAnimation 5s infinite;
+            cursor: pointer;
+        }
+
+        @keyframes myAnimation {
+            0% {width: 100px;}
+            25% {width: 500px; background: blue;}
+            50% {width: 200px; background: green;}
+            75% {width: 500px; background: purple;}
+            100% {width: 100px;}
+        }
+    </style>
+    <div id="box1"></div>
+</body>
+</html>

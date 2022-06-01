@@ -1,0 +1,11 @@
+#box1 {
+    width: 100px;
+    height: 100px;
+    background: #f00;
+    transition: width 2s ease;
+    cursor: pointer;
+}
+
+#box1:hover {
+    width: 600px;
+}
